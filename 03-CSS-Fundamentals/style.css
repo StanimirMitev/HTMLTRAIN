@@ -1,12 +1,8 @@
-h1,
-h2,
-h3,
-h4,
-p,
-li {
+body {
+  color:  #444;
   font-family: sans-serif;
-  color: #444444;
 }
+
 
 h1,
 h2,
@@ -42,11 +38,24 @@ p {
 li {
   font-size: 20px;
 }
-
+/* CONFLICTS
 #copyright {
   font-size: 13px;
+  color:  red;
 }
 
+.copyright {
+  color:  blue;
+}
+
+.text {
+  color:  yellow;
+}
+
+foorter p {
+  color: green;
+}
+*/
 #author {
   font-style: italic;
   font-size: 18px;
@@ -104,4 +113,8 @@ a:hover {
 a:active {
   background-color: black;
   font-style: italic;
+}
+
+nav {
+  font-size:  18px;
 }
